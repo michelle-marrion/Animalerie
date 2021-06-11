@@ -5,10 +5,29 @@
  */
 package classes.Objets;
 
+import classes.ExtendsAnimals.Felin;
+
 /**
  *
  * @author ngami_4vnxadk
  */
-public class Chat {
-    
+public class Chat extends Felin{
+
+     public Chat()
+    {
+        
+    }
+    public Chat(String color, int p)
+    {
+        this.couleur=color;
+        this.poid=p;
+             
+    }
+    void Cry()
+    {
+         System.out.print("Je mioulle sur les toits");
+    }
+    void Walker() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
