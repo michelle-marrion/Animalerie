@@ -3,9 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package classes.Objets;
-
-import classes.ExtendsAnimals.Felin;
+package classes.ExtendsAnimals;
 
 /**
  *
@@ -13,21 +11,23 @@ import classes.ExtendsAnimals.Felin;
  */
 public class Chat extends Felin{
 
-     public Chat()
+    public Chat()
     {
         
     }
     public Chat(String color, int p)
     {
         this.couleur=color;
-        this.poid=p;
-             
+        this.poid=p;             
     }
-    void Cry()
+    //@Override
+    public void Cry()
     {
          System.out.print("Je mioulle sur les toits");
     }
-    void Walker() {
+    @Override
+    public void Walker() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
 }

@@ -12,7 +12,7 @@ import classes.Abstract.Animal;
  * @author ngami_4vnxadk
  */
 public abstract class Canin extends Animal {
-    void Walker()
+   public void Walker()
     {
         System.out.print(" je me deplace en meute");
                     
